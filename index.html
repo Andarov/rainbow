@@ -9,20 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
-
+    
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- Tailwind Css -->
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body class="font-nunito">
-
+    
     <main>
-        <div class="py-20">
-
+        <!-- collection -->
+        <div class="pt-16 pb-36">
+            <div class="w-full max-w-[1240px] px-5 mx-auto">
+                <div class="flex justify-center gap-14 flex-wrap md:flex-nowrap md:justify-between">
+                    <!-- collection context -->
+                    <div class="max-w-[470px] flex items-center flex-col text-center md:text-left md:items-start pt-8 lg:pt-16">
+                        <div class="mb-6">
+                            <p class="text-base font-bold text-brand-black">INSPIRATION
+                            </p>
+                            <p class="flex items-center md:before:mr-1 md:before:w-8 md:before:text-white md:before:h-0.5 md:before:bg-black md:before:content-[''] md:before:inline-block text-[#b7b7b7] font-bold">COLORFUL AUTUMN</p>
+                        </div>
+                        <h3 class="text-3xl text-brand-black mb-6 font-rufina text-center md:text-[42px] md:leading-tight md:text-left xl:text-7xl">Tone to Tone
+                        </h3>
+                        <p class="text-base text-brand-black mb-8 xl:mb-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu justo ornare, ornare lectus sed, fringilla</p>
+                        <a class="border-2 border-black bg-transparent py-4 px-11 text-lg font-bold" href="#">Explore Collection</a>
+                    </div>
+                    <!-- Img-wrapper -->
+                    <div class="max-w-2xl mx-auto md:ml-auto">
+                        <img class="ml-auto" src="./img/inspiration-main.jpg" alt="" width="670" height="666">
+                    </div>
+                </div>
+                <div class="relative -bottom-10 lg:left-0 lg:bottom-16">
+                    <div class="grid grid-cols-1 gap-10 md:grid-cols-3 lg:flex items-center">
+                        <!-- 1 -->
+                        <div class="relative md:max-w-[282px]">
+                            <img class="w-full mb-2.5" src="./img/t-shirt.jpg" alt="T-Shirt">
+                            <div class="absolute left-0 bottom-16 bg-white flex flex-col pl-2.5 pt-1 pr-20">
+                                <h4 class="text-base text-brand-black">Tie Back T-Shirt</h4>
+                                <p class="text-base text-brand-black">$75<sup>00</sup></p>
+                            </div>
+                            <div class="flex justify-end items-center">
+                                <a class="underline underline-offset-4 font-bold text-lg text-brand-black" href="#">Shoes</a>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="relative md:max-w-[282px]">
+                            <img class="w-full mb-2.5" src="./img/long-sleeve.jpg" alt="Long Sleeve">
+                            <div class="absolute left-0 bottom-16 bg-white flex flex-col pl-2.5 pt-1 pr-20">
+                                <h4 class="text-base text-brand-black">U-Neck Long Sleeve</h4>
+                                <p class="text-base text-brand-black">$95<sup>00</sup></p>
+                            </div>
+                            <div class="flex justify-end items-center">
+                                <a class="underline underline-offset-4 font-bold text-lg text-brand-black" href="#">Dresses</a>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="relative md:max-w-[282px]">
+                            <img class="w-full mb-2.5" src="./img/velvet.jpg" alt="Velvet">
+                            <div class="absolute left-0 bottom-16 bg-white flex flex-col pl-2.5 pt-1 pr-20">
+                                <h4 class="text-base text-brand-black">Velvet One</h4>
+                                <p class="text-base text-brand-black">$75<sup>00</sup></p>
+                            </div>
+                            <div class="flex justify-end items-center">
+                                <a class="underline underline-offset-4 font-bold text-lg text-brand-black" href="#">Dresses</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-
+        
         <!-- Accesories -->
         <div class="bg-brand-pink pt-[70px] pb-36">
             <div class="w-full max-w-[1240px] px-5 mx-auto">
@@ -42,10 +100,11 @@
                         <a class="border-2 border-black bg-transparent py-4 px-11 text-lg font-bold" href="#">Explore Collection</a>
                     </div>
                 </div>
-
+                
             </div>
         </div>
-
+        
+        <!-- Accesories2 -->
         <div class="relative -mt-36 w-full max-w-[1240px] px-5 mx-auto mb-20">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-20">
                 <!-- 1 -->
@@ -72,8 +131,8 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
         <!-- CTA -->
         <div class="w-full max-w-[1240px] mx-auto px-5">
             <div class="max-w-xs mx-auto pb-6 xl:pb-12 xl:mx-0">
@@ -85,7 +144,7 @@
         <div class="bg-cover bg-bottom bg-repeat pt-14" style="background-image: url(./img/cta.png);">
         </div>
     </main>
-
+    
     <footer class="bg-[#150c11] pt-12">
         <div class="w-full max-w-[1240px] px-5 mx-auto">
             <!-- Footer-top -->
@@ -150,6 +209,6 @@
             <p class="text-white/30 text-center text-[13px] leading-5">© 2019 Oggi. All rights reserved.</p>
         </div>
     </footer>
-
+    
 </body>
 </html>
