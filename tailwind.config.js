@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         brand: {
           'black': '#252525',
-          'pink': '#f2e9ee',
+          'pink': '#eed9e5',
         }
       },
       fontFamily: {
