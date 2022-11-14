@@ -49,3 +49,17 @@ closeSearch.addEventListener('click' , function(){
 openSearch.addEventListener('click' , function(){
   searchBox.classList.remove('hidden')
 })
+
+// Sticky navbar
+const elHeader = document.querySelector('header');
+const elHero = document.querySelector('.hero');
+console.log(elHero);
+const heroCord = elHero.getBoundingClientRect()
+
+window.addEventListener('scroll', function(){
+  if(this.window.scrollY > heroCord.top){
+    elHeader.classList.add('sticky')
+  }else{
+    elHeader.classList.remove('sticky')
+  }
+})

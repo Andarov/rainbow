@@ -525,6 +525,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-\[30px\] {
   left: 30px;
 }
@@ -1369,6 +1373,11 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .swiper {
