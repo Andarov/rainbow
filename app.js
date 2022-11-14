@@ -14,7 +14,6 @@ elOverl.addEventListener('click', function() {
 
 // Dropdown mobile
 const elItems = document.querySelectorAll('#item');
-console.log(elItems);
 elItems.forEach(function(item){
     item.addEventListener('click', function(e){
         console.log(item);
