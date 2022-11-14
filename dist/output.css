@@ -1509,6 +1509,10 @@ video {
   background-color: rgb(238 217 229 / var(--tw-bg-opacity));
 }
 
+.hover\:to-brand-pink:hover {
+  --tw-gradient-to: #eed9e5;
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1517,6 +1521,11 @@ video {
 .hover\:text-\[\#c69aab\]:hover {
   --tw-text-opacity: 1;
   color: rgb(198 154 171 / var(--tw-text-opacity));
+}
+
+.hover\:text-brand-pink:hover {
+  --tw-text-opacity: 1;
+  color: rgb(238 217 229 / var(--tw-text-opacity));
 }
 
 .hover\:after\:w-full:hover::after {
