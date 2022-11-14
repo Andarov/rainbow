@@ -1340,11 +1340,6 @@ video {
   outline-offset: 2px;
 }
 
-.blur-2xl {
-  --tw-blur: blur(40px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1407,6 +1402,11 @@ video {
   right: 0px;
 }
 
+.after\:top-1::after {
+  content: var(--tw-content);
+  top: 0.25rem;
+}
+
 .after\:-right-2::after {
   content: var(--tw-content);
   right: -0.5rem;
@@ -1437,6 +1437,11 @@ video {
   height: 100%;
 }
 
+.after\:h-5\/6::after {
+  content: var(--tw-content);
+  height: 83.333333%;
+}
+
 .after\:w-\[60px\]::after {
   content: var(--tw-content);
   width: 60px;
@@ -1457,6 +1462,12 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(238 217 229 / var(--tw-bg-opacity));
+}
+
+.after\:bg-pink-800::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(157 23 77 / var(--tw-bg-opacity));
 }
 
 .after\:transition-all::after {
