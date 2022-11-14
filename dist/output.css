@@ -964,6 +964,11 @@ video {
   background-color: rgb(21 12 17 / var(--tw-bg-opacity));
 }
 
+.bg-brand-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 37 37 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1281,7 +1286,7 @@ video {
   color: rgb(238 217 229 / var(--tw-text-opacity));
 }
 
-.text-\[\#3e4a5999\] {
+.text-brand-dropdown {
   color: #3e4a5999;
 }
 
@@ -1472,7 +1477,7 @@ video {
   content: var(--tw-content);
 }
 
-.hover\:bg-\[\#eed9e5\]:hover {
+.hover\:bg-brand-pink:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(238 217 229 / var(--tw-bg-opacity));
 }

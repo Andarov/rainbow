@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         brand: {
           'black': '#252525',
+          'dropdown': '#3e4a5999',
           'pink': '#eed9e5',
         }
       },
